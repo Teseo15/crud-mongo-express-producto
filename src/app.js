@@ -6,7 +6,7 @@ const mongoose = require('mongoose');
 const app = express();
 
 // connection to db
-mongoose.connect('mongodb://localhost/crud-mongo')
+mongoose.connect('mongodb+srv://teseo55:admin123@mini-merm.1oegf.mongodb.net/pruebas')
   .then(db => console.log('db connected'))
   .catch(err => console.log(err));
 
